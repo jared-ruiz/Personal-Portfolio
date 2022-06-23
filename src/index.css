@@ -31,10 +31,11 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    font-family: 'Heebo'
+    font-family: 'Heebo', sans-serif;
 }
 
-a {
+/* ==== navbar styling ====*/
+.category-style {
     color: var(--color-2);
     font-family: 'Heebo', sans-serif;
     font-size: 30px;
@@ -42,7 +43,7 @@ a {
     margin: 40px;
 }
 
-a:hover {
+.category-style:hover {
     color: rgb(75, 116, 170);
 }
 

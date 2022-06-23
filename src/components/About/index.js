@@ -11,7 +11,6 @@ function About () {
                 <p>My name is</p>
                 <p><span className='name-highlight'>Jared Ruiz</span></p>
                 <p>I am an aspiring web developer</p>
-                <p>Let's get in touch!</p>
             </div>
         </section>
     )
