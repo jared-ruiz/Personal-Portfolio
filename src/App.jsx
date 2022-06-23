@@ -1,8 +1,15 @@
 import React from 'react'
 
+import Nav from './components/Nav'
+import About from './components/About'
+
+
 const App = () => {
   return (
-    <div>Test</div>
+    <>
+        <Nav></Nav>
+        <About></About>
+    </>
   )
 }
 
