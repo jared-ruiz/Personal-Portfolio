@@ -1,38 +1,24 @@
 import React, { useEffect } from 'react'
 
-function Nav () {
+function Nav(props) {
 
-    // const {
-    //     categories = [],
-    // } = props;
+    const {
+        categories = [],
+        setCurrentCategory,
+        currentCategory,
+    } = props;
 
-    const categories = [
-        {
-            name: 'About Me'
-        },
-        {
-            name: 'Portfolio'
-        },
-        {
-            name: 'Contact Me'
-        },
-        {
-            name: 'Resume'
-        }
-      ]
-
-    //console log clicked category name
-    function categorySelected(e) {
-        console.log(`${e.target.innerText} has been clicked`)
-    }
+    useEffect(() => {
+        document.title = currentCategory.name;
+    }, [currentCategory])
 
     return (
         <header className='px-1 nav-position'>
             <nav>
                 <ul className='flex-row'>
                     {categories.map((category) => (
-                        <li className='my-2' key={category.name}>
-                            <span className='category-style' onClick={() => categorySelected(category.name)}>
+                        <li className={`my-2' ${currentCategory.name === category.name && "navActive"}`} key={category.name}>
+                            <span className='category-style' onClick={() => { setCurrentCategory(category)}}>
                                 {category.name}
                             </span>
                         </li>

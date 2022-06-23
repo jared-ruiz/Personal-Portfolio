@@ -10,11 +10,11 @@
     text-decoration: none;
 }
 
-/* main {
+main {
 	margin: 0 auto;
 	max-width: 90%;
     padding: 50px 30px;
-} */
+}
 
 :root {
     --color-1: lightpink;
@@ -32,6 +32,10 @@ body {
     padding: 0;
     line-height: 1.5;
     font-family: 'Heebo', sans-serif;
+}
+
+nav li {
+    cursor: pointer;
 }
 
 /* ==== navbar styling ====*/
@@ -109,4 +113,16 @@ nav ul {
     color: rgb(75, 116, 170);
     font-weight: 1000;
     font-size: 40px;
+}
+.project-image {
+    width: auto;
+    height: 300px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    border: 10px solid white;
+    border-radius: 20px;
+}
+.project-margin {
+    margin-right: calc(1rem);
+    margin-left: calc(1rem);
 }
