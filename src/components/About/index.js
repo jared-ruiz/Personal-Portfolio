@@ -10,7 +10,7 @@ function About () {
             <div className='about-me-p'>
                 <p>My name is</p>
                 <p><span className='name-highlight'>Jared Ruiz</span></p>
-                <p>I am an aspiring web developer</p>
+                <p>I am a San Antonio Based Web Developer!</p>
             </div>
         </section>
     )

@@ -38,6 +38,17 @@ nav li {
     cursor: pointer;
 }
 
+input {
+    font-size: 20px;
+    margin: 10px;
+    padding: 0.25rem;
+    border: 4px solid var(--color-2);
+    outline: none;
+    border-radius: 10px;
+    transition: box-shadow 0.2s;
+    max-width: fit-content;
+}
+
 /* ==== navbar styling ====*/
 .category-style {
     color: var(--color-2);
@@ -125,4 +136,57 @@ nav ul {
 .project-margin {
     margin-right: calc(1rem);
     margin-left: calc(1rem);
+}
+
+label {
+    font-weight: 500px;
+    font-size: 30px;
+    font-family: 'Heebo';
+    display: block;
+}
+
+textarea {
+    /* resize: none; */
+    width:fit-content;
+    padding: 10px;
+    border: 5px solid var(--color-2);
+    border-radius: 10px;
+}
+
+button {
+	background: rgb(75, 116, 170);
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 25px;
+	font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 40px;
+	margin-bottom: 40px;
+	padding: 20px;	
+}
+
+#form-greet {
+    font-size: 40px;
+    font-family: "Heebo";
+    color: var(--color-2);
+    font-weight: 500;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+#contact-form {
+   text-align: center;
+}
+
+.error-text {
+    font-family: 'Heebo';
+}
+
+.linkedIn-icon {
+    max-width: 100%;
+    height: 65px;
+    margin-left: 10px;
 }
