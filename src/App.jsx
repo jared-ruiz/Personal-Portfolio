@@ -44,8 +44,6 @@ const App = () => {
       <Nav categories={categories} setCurrentCategory={setCurrentCategory} currentCategory={currentCategory}></Nav>
       <main>
       <>
-        {/* <Portfolio currentCategory={currentCategory}></Portfolio>
-        <About></About> */}
         {renderPage()}
       </>
       </main>
