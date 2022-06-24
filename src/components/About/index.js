@@ -5,7 +5,7 @@ function About () {
     return(
         <section>
             <div>
-                <img src={profilePicture} style={{ width: 'auto', height: '450px', margin: 'auto', display: 'block', borderRadius: '10%', border: '10px solid white', objectFit: 'cover' }} />
+                <img src={profilePicture} alt='profile-picture' style={{ maxWidth: '100%', height: '450px', margin: 'auto', display: 'block', borderRadius: '10%', border: '10px solid white', objectFit: 'cover' }} />
             </div>
             <div className='about-me-p'>
                 <p>My name is</p>

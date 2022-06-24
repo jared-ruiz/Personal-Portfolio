@@ -64,7 +64,7 @@ function Contact() {
                         <p className='error-text'>{errorMessage}</p>
                     </div>
                 )}
-                <button type='submit' data-testid='submit-button'>Submit</button>
+                <button type='submit' data-testid='submit-button' className='button-submit'>Submit</button>
                 <div>
                     <a href='https://github.com/jared-ruiz' target='_blank'>
                         <img src={githubIcon}></img>
