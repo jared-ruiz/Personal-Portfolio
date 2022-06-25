@@ -255,3 +255,11 @@ button {
 .resume-download-text {
     color: black;
 }
+
+h4 {
+    margin-left: 49%;
+    display: block;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    color: var(--color-2)
+}
