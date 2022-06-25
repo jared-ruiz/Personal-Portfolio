@@ -228,7 +228,7 @@ button {
 
 .modal-description {
     font-family: 'Heebo';
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .modal-button {
@@ -242,5 +242,16 @@ button {
     margin: 10%;
     max-width: fit-content;
     margin-left: 5%;
-    font-weight: 500;
+    font-weight: 600;
+}
+
+.resume-button {
+    background-color: var(--color-2);
+    display: block;
+    align-items: center;
+    margin: 10% auto;
+}
+
+.resume-download-text {
+    color: black;
 }
