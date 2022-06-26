@@ -73,7 +73,7 @@ GIVEN a single-page application portfolio for a web developer
 
 ## Working Example of Project
 ---
-[Deployed Website Through GitHub]()
+[Deployed Website Through GitHub](https://jared-ruiz.github.io/Personal-Portfolio/)
 
 ## Weekly Reflection
 ---
