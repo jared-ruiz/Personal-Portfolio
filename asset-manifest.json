@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.2edf7da7.css",
-    "main.js": "/Personal-Portfolio/static/js/main.8719dd65.js",
+    "main.js": "/Personal-Portfolio/static/js/main.3f05640d.js",
     "static/media/front-smile.jpg": "/Personal-Portfolio/static/media/front-smile.378d33730e5b85493c3c.jpg",
     "static/media/0.PNG": "/Personal-Portfolio/static/media/0.eda5d9cae3928d7ed1d7.PNG",
     "static/media/Resume (Jared Ruiz).pdf": "/Personal-Portfolio/static/media/Resume (Jared Ruiz).7d7c37ced29dcf1fd093.pdf",
+    "static/media/2.PNG": "/Personal-Portfolio/static/media/2.84d20741971afc6b1541.PNG",
     "static/media/1.PNG": "/Personal-Portfolio/static/media/1.ba946943581736658ba6.PNG",
     "index.html": "/Personal-Portfolio/index.html",
     "main.2edf7da7.css.map": "/Personal-Portfolio/static/css/main.2edf7da7.css.map",
-    "main.8719dd65.js.map": "/Personal-Portfolio/static/js/main.8719dd65.js.map"
+    "main.3f05640d.js.map": "/Personal-Portfolio/static/js/main.3f05640d.js.map"
   },
   "entrypoints": [
     "static/css/main.2edf7da7.css",
-    "static/js/main.8719dd65.js"
+    "static/js/main.3f05640d.js"
   ]
 }
